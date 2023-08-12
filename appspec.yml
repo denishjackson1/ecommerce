@@ -2,7 +2,9 @@ version: 0.0
 os: linux
 files:
 #shouldworknow
-  - source: /*
+  - source: index.html
+    destination: /var/www/html/
+  - source: cart.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
