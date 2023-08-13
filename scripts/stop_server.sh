@@ -1,5 +1,5 @@
 #!/bin/bash
 isExistApp = `pgrep httpd`
 if [[ -n  $isExistApp ]]; then
-    sudo systemctl stop apache2      
+    systemctl stop apache2      
 fi
