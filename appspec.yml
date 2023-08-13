@@ -2,7 +2,37 @@ version: 0.0
 os: linux
 files:
 # copy files
-  - source: /
+  - source: /css
+    destination: /var/www/html/
+    overwrite: true
+  - source: /images
+    destination: /var/www/html/
+    overwrite: true
+  - source: /js
+    destination: /var/www/html/
+    overwrite: true
+  - source: /fonts
+    destination: /var/www/html/
+    overwrite: true
+  - source: /mail
+    destination: /var/www/html/
+    overwrite: true
+  - source: /blog-single-sidebar.html
+    destination: /var/www/html/
+    overwrite: true
+  - source: /cart.html
+    destination: /var/www/html/
+    overwrite: true
+  - source: /checkout.html
+    destination: /var/www/html/
+    overwrite: true
+  - source: /contact.html
+    destination: /var/www/html/
+    overwrite: true
+  - source: /index.html
+    destination: /var/www/html/
+    overwrite: true
+  - source: /styles.css
     destination: /var/www/html/
     overwrite: true
 hooks:
