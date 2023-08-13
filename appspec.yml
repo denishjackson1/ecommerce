@@ -1,7 +1,6 @@
 version: 0.0
 os: linux
 files:
-#shouldworknow
   - source: /cart.html
     destination: /var/www/html/
     overwrite: true
