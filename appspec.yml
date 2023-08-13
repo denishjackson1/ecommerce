@@ -1,19 +1,19 @@
 version: 0.0
 os: linux
 files:
-  - source: css/
+  - source: css
     destination: /var/www/html/
     overwrite: true
-  - source: images/
+  - source: images
     destination: /var/www/html/
     overwrite: true
-  - source: js/
+  - source: js
     destination: /var/www/html/
     overwrite: true
-  - source: fonts/
+  - source: fonts
     destination: /var/www/html/
     overwrite: true
-  - source: mail/
+  - source: mail
     destination: /var/www/html/
     overwrite: true
   - source: /blog-single-sidebar.html
